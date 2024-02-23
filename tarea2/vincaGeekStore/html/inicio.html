@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="icon" href="/imagenes/favicon geek.png">
+    <title>Tienda Geek</title>
+</head>
+<body>
+    <section class="header">
+        <div class="logo-container">
+            <h1>Vinca Geek Store</h1>
+            <img class="imglogo" src="/imagenes/favicon geek.png" alt="Logo de la tienda">
+        </div>
+    </section>
+
+    <section class="navigation">
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="productos" class="section productos">
+        <!-- Contenido de la sección Productos -->
+        <div class="slider-container">
+            <!-- Slider de productos -->
+            <div class="slide">
+                <img class="img-producto" src="/imagenes/funkoNaruto.jpg" alt="Funko Naruto">
+                <h3>Funko Naruto</h3>
+                <p>Costo: $20</p>
+                <label for="cantidad1">Cantidad:</label>
+                <select id="cantidad1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="agregar-carrito" onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+            </div>
+            <!-- Repite el patrón para otros productos -->
+        </div>
+        <div class="slider-container">
+            <!-- Slider de productos -->
+            <div class="slide">
+                <img class="img-producto" src="/imagenes/Funko-Pop-Harry-Potter-Quidditch-08-900x900.jpeg" alt="Funko Harry Potter">
+                <h3>Funko Harry Potter</h3>
+                <p>Costo: $20</p>
+                <label for="cantidad1">Cantidad:</label>
+                <select id="cantidad1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="agregar-carrito" onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+            </div>
+            <!-- Repite el patrón para otros productos -->
+        </div>
+        <div class="slider-container">
+            <!-- Slider de productos -->
+            <div class="slide">
+                <img class="img-producto" src="/imagenes/funkoRengoku.webp" alt="Funko Rengoku">
+                <h3>Funko Rengoku</h3>
+                <p>Costo: $20</p>
+                <label for="cantidad1">Cantidad:</label>
+                <select id="cantidad1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="agregar-carrito" onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+            </div>
+            <!-- Repite el patrón para otros productos -->
+        </div>
+    </section>
+
+    <section id="quienes-somos" class="section quienes-somos">
+        <div class="quienes-somos-content">
+            <h2>Quiénes Somos</h2>
+            <p>
+                Bienvenidos a Vinca Geek Store, tu destino para descubrir productos geek, anime, cultura pop y más. Nuestra historia comenzó en el año 2022, en medio de la pandemia, cuando la búsqueda de la comodidad y la conexión a través de la cultura geek se volvió más importante que nunca.
+            </p>
+            <p>
+                En Vinca Geek Store, no solo ofrecemos productos, sino una experiencia. Cada artículo que seleccionamos está impregnado de calidad y pasión. Nos enorgullece brindarte una cuidada selección de productos importados que reflejan nuestra dedicación a la excelencia.
+            </p>
+            <p>
+                Nuestro emprendimiento personal es más que una tienda; es un espacio donde los amantes de la cultura geek pueden encontrar productos auténticos, únicos y de alta calidad. Agradecemos tu apoyo mientras continuamos creciendo y explorando nuevas fronteras en el fascinante mundo de la cultura geek.
+            </p>
+            <p>
+                ¡Únete a nosotros en este viaje emocionante y descubre la magia que Vinca Geek Store tiene para ofrecer!
+            </p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section contacto">
+        <!-- Contenido de la sección Contacto -->
+    </section>
+
+    <section id="carrito" class="section carrito">
+        <!-- Contenido de la sección Carrito -->
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="/imagenes/Facebook-Logo-Png-Image-Free-Download.jpg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="/imagenes/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="/imagenes/pngtree-youtube-social-media-icon-png-image_6315995.png" alt="Youtube"></a>
+        </div>
+        <p class="rights">Vinca Geek Store Derechos Reservados 2024</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
