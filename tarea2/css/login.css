@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.box-login{
+    background-color:antiquewhite;
+    border-radius: 25px;
+}
+
+.padding-login{
+    padding: 5%;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    background-color: #0063be;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.usuario {
+    width: 70%;
+}
+
+a {
+    font-weight: bold;
+    color: #0063be;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0063be;
+    text-decoration: underline;
+}
+
+input:checked {
+    background-color: #0063be !important;
+}
+
+input,
+select {
+    cursor: pointer;
+}
+
+.error {
+    border: red solid 1px;
+}
+
+button {
+    background-color: #0063be !important;
+    width: 100%;
+}
+
+#forgot-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}
+
+@media (max-width:575px) {
+    .animacion1 {
+        width: 80% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    .anima {
+        width: 100% !important;
+    }
+}
