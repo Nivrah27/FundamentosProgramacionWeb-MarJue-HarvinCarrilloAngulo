@@ -1,0 +1,156 @@
+.navbar-brand .logo {
+    height: auto; 
+    width: 100px;
+    margin-right: 10px; 
+}
+
+.navbar-brand, .nav-link {
+    color: #FFA500; 
+}
+
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #FFA500;
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table tbody tr:hover {
+    background-color: #f90;
+    cursor: pointer;
+}
+
+.product-details {
+    display: none;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.product-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.product-info {
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .product-table th, .product-table td {
+        padding: 8px;
+    }
+
+    .product-image {
+        float: none;
+        margin-bottom: 20px;
+    }
+}
+
+#noResults {
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.product-details {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+.product-image {
+    float: left;
+    margin-right: 20px;
+    height: 100%; 
+}
+.product-info h2 {
+    color: #f90;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 8px;
+}
+
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.btn-social {
+    width: auto;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-social:hover {
+    color: #fff;
+    background-color: rgba(255, 154, 3, 0.76);
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,201 @@
+.navbar-brand .logo {
+    height: auto; 
+    width: 100px;
+    margin-right: 10px; 
+}
+
+.navbar-brand, .nav-link {
+    color: #FFA500; /* Color naranja para el texto */
+}
+
+/* Centrar los elementos del navbar */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilos para el menú hamburguesa */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #FFA500;
+}
+
+/* Estilos para el menú hamburguesa cuando está activo */
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-section {
+    background-color: #ff4400ce;
+}
+
+.gallery-section, .video-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #000000; /* Color de Naruto */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery, .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumbnail, .video-thumbnail {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.thumbnail img, .video-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 80vh; /* 80% de la altura del viewport */
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.modal-content {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    transform: translateY(-50%);
+    margin-top: -22px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(255, 145, 0, 0.8);
+}
+
+.video-section {
+    padding: 40px 0;
+    background-color: #000; /* Color de fondo negro */
+}
+
+.section-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.video-item {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 para videos de YouTube */
+    overflow: hidden;
+}
+
+.video-item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-social {
+    width: auto;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-social:hover {
+    color: #fff;
+    background-color: rgba(255, 154, 3, 0.76);
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 20px;
+}

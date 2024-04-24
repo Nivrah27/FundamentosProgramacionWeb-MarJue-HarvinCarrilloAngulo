@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar-brand .logo {
+    height: auto; 
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navbar-brand, .nav-link {
+    color: #FFA500; 
+}
+
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #FFA500;
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+.content-tabs {
+    margin-top: 50px;
+}
+
+.nav-tabs .nav-link {
+    color: #FFA500;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #FFA500;
+}
+
+/* Estilos para combos */
+.simple-combo, .double-combo {
+    margin-top: 30px;
+}
+
+/* Estilos para sección de combos */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select.form-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+/* Estilos para la tira fotográfica */
+.photo-strip {
+    display: flex;
+    overflow: hidden; /* Oculta el desbordamiento horizontal */
+    gap: 10px;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.photo-strip img {
+    flex-shrink: 0;  /* Asegura que las imágenes no se reduzcan */
+    width: auto;     /* Ajusta el ancho de las imágenes */
+    height: 150px;   /* Altura fija para las imágenes */
+    border-radius: 5px;
+    animation: scrollPhoto 30s linear infinite; /* Animación de desplazamiento */
+}
+
+@keyframes scrollPhoto {
+    0% {
+        transform: translateX(0);  /* Comienza desde la izquierda */
+    }
+    100% {
+        transform: translateX(-100%);  /* Termina en la posición -100% (100% hacia la izquierda) */
+    }
+}
+
+/* Estilos para los pasos de modelado */
+.modeling-steps h3 {
+    color: #FFA500;
+}
+
+model-viewer {
+    width: 425px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para la sección interactiva */
+.interactive-section {
+    padding: 50px 0;
+}
+
+.interactive-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    background-color: #FFA500;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #FF7F00; /* Un tono más oscuro de naranja al pasar el mouse */
+}
+
+.btn-social {
+    width: auto;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-social:hover {
+    color: #fff;
+    background-color: rgba(255, 154, 3, 0.76);
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,101 @@
+.navbar-brand .logo {
+    height: auto; 
+    width: 100px;
+    margin-right: 10px; 
+}
+
+.navbar-brand, .nav-link {
+    color: #FFA500; /* Color naranja para el texto */
+}
+
+/* Centrar los elementos del navbar */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilos para el menú hamburguesa */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #FFA500;
+}
+
+/* Estilos para el menú hamburguesa cuando está activo */
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+.team-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f38201;
+}
+
+.team-section img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.contact-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.encuesta-section {
+    padding: 50px 0;
+}
+
+.encuesta-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.encuesta-section form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.encuesta-section label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.encuesta-section input[type="radio"],
+.encuesta-section input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-social {
+    width: auto;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-social:hover {
+    color: #fff;
+    background-color: rgba(255, 154, 3, 0.76);
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 20px;
+}
+

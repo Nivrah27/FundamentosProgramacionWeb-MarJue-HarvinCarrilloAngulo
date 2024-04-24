@@ -1,0 +1,349 @@
+.navbar-brand .logo {
+    height: 30px; 
+    margin-right: 10px; 
+}
+
+.navbar-brand, .nav-link {
+    color: #FFA500; 
+}
+
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: #FFA500;
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: #ffffff;
+    padding: 40px 0;
+    width: 100%; 
+    margin: 0 auto; /* Centrar la sección */
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos */
+}
+
+.hero .container {
+    width: 100%; /* Asegurar que el contenedor ocupe todo el espacio disponible */
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos */
+}
+
+.hero .col-sm-8 {
+    padding-left: 100px;
+    width: 48%; /* Ajustar el ancho de las columnas al 48% para dejar un pequeño espacio entre ellas */
+    display: flex; /* Utilizar flexbox */
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    justify-content: center; /* Centrar el contenido verticalmente */
+}
+
+.hero img {
+    width: 100%; /* Ajustar la imagen al 100% del ancho del contenedor */
+    height: auto;
+    max-width: 100%; /* Asegurar que la imagen no exceda el ancho máximo */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+
+.info {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.info h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.info3 {
+    box-shadow: 3px 3px 10px #4d4d4d;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    padding: 40px 20px;
+    border: solid rgb(180, 180, 180) 1px;
+    overflow: hidden;
+}
+
+.info2 {
+    padding: 10px 80px;
+}
+
+.info3 {
+    box-shadow: 3px 3px 10px #4d4d4d;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    padding: 40px 20px;
+    border: solid rgb(180, 180, 180) 1px;
+}
+
+#section-counter {
+    position: relative;
+    z-index: 0;
+}
+
+.ftco-counter {
+    overflow-x: hidden;
+    position: relative;
+    padding: 4em 0;
+    background: #fff;
+}
+
+.ftco-counter .text .number {
+    line-height: 1;
+    font-weight: 700;
+    font-size: 38px;
+    color: #00469b;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ftco-counter .text span {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1199.98px) {
+    .ftco-counter {
+        background-position: center center !important;
+    }
+}
+
+.ftco-counter .block-18 {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-counter .block-18 {
+        margin-bottom: 2em;
+    }
+}
+
+.ftco-counter .text {
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-counter .text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .ftco-counter .counter-wrap {
+        margin-bottom: 20px;
+    }
+}
+
+.image-section {
+    background-color: #000;
+    padding: 10px 10px;
+}
+
+.image-section h2 {
+    padding: 20px;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.image-item {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.image-item img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.image-item:hover img {
+    transform: scale(1.1);
+}
+
+.image-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.testimonios {
+    padding: 20px;
+    background-color: #FF4500;
+}
+.contenedor {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider-contenedor {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.slider-test {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: #f4f4f4;
+}
+
+.p-testimonios{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.rating {
+    color: #FFD700;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.product-carousel {
+    padding: 20px;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-wrapper {
+    display: flex;
+    animation: slideProduct 40s linear infinite; /* 40s para el loop completo y velocidad reducida */
+    width: 200%; /* Ajustado para mostrar todos los productos */
+}
+
+.product-slide {
+    flex: 0 0 33.33%; /* 3 productos por slide */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-title {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.product-price {
+    color: #FF4500; /* Color naranja Naruto */
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Animación de desplazamiento */
+@keyframes slideProduct {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.subscribe-section {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    padding: 50px 0;
+}
+
+.subscribe-section h2 {
+    color: #007bff; /* Color azul primario */
+    margin-bottom: 30px;
+}
+
+.subscribe-section button {
+    background-color: #007bff; /* Color azul primario */
+    border-color: #007bff; /* Color del borde */
+}
+
+.subscribe-section button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+
+.btn-social {
+    width: auto;
+    height: auto;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-social:hover {
+    color: #fff;
+    background-color: rgba(255, 154, 3, 0.76);
+}
+
+footer {
+    padding-top: 10px;
+    margin-top: 20px;
+}
